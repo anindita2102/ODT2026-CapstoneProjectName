@@ -81,7 +81,7 @@ ble.irq(event_occured)
 while True:
     if state[0] == "F":
         forward()
-        print("moved forward")
+     print("moved forward")
     elif state[0] == "B":
         backward()
         print("moved backward")
